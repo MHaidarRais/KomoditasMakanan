@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAB085F1FB2B74000EAE39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB085E1FB2B74000EAE39B /* AppDelegate.swift */; };
+		8AAB08611FB2B74000EAE39B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08601FB2B74000EAE39B /* ViewController.swift */; };
+		8AAB08641FB2B74000EAE39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAB08621FB2B74000EAE39B /* Main.storyboard */; };
+		8AAB08661FB2B74000EAE39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAB08651FB2B74000EAE39B /* Assets.xcassets */; };
+		8AAB08691FB2B74000EAE39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAB08671FB2B74000EAE39B /* LaunchScreen.storyboard */; };
+		8AAB08741FB2B74000EAE39B /* KomoditasMakananTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08731FB2B74000EAE39B /* KomoditasMakananTests.swift */; };
+		8AAB087F1FB2B74000EAE39B /* KomoditasMakananUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB087E1FB2B74000EAE39B /* KomoditasMakananUITests.swift */; };
+		8AAB088D1FB2B78A00EAE39B /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088C1FB2B78A00EAE39B /* Loan.swift */; };
+		8AAB088F1FB2B79800EAE39B /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB088E1FB2B79800EAE39B /* detailViewController.swift */; };
+		8AAB08911FB2B7A400EAE39B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08901FB2B7A400EAE39B /* TableViewController.swift */; };
+		8AAB08931FB2B7B000EAE39B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAB08921FB2B7B000EAE39B /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AAB08701FB2B74000EAE39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAB08531FB2B74000EAE39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAB085A1FB2B74000EAE39B;
+			remoteInfo = KomoditasMakanan;
+		};
+		8AAB087B1FB2B74000EAE39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAB08531FB2B74000EAE39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAB085A1FB2B74000EAE39B;
+			remoteInfo = KomoditasMakanan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AAB085B1FB2B74000EAE39B /* KomoditasMakanan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KomoditasMakanan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB085E1FB2B74000EAE39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AAB08601FB2B74000EAE39B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AAB08631FB2B74000EAE39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AAB08651FB2B74000EAE39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AAB08681FB2B74000EAE39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AAB086A1FB2B74000EAE39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAB086F1FB2B74000EAE39B /* KomoditasMakananTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomoditasMakananTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB08731FB2B74000EAE39B /* KomoditasMakananTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomoditasMakananTests.swift; sourceTree = "<group>"; };
+		8AAB08751FB2B74000EAE39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAB087A1FB2B74000EAE39B /* KomoditasMakananUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KomoditasMakananUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB087E1FB2B74000EAE39B /* KomoditasMakananUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomoditasMakananUITests.swift; sourceTree = "<group>"; };
+		8AAB08801FB2B74000EAE39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAB088C1FB2B78A00EAE39B /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		8AAB088E1FB2B79800EAE39B /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		8AAB08901FB2B7A400EAE39B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8AAB08921FB2B7B000EAE39B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AAB08581FB2B74000EAE39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB086C1FB2B74000EAE39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB08771FB2B74000EAE39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAB08521FB2B74000EAE39B = {
+			isa = PBXGroup;
+			children = (
+				8AAB085D1FB2B74000EAE39B /* KomoditasMakanan */,
+				8AAB08721FB2B74000EAE39B /* KomoditasMakananTests */,
+				8AAB087D1FB2B74000EAE39B /* KomoditasMakananUITests */,
+				8AAB085C1FB2B74000EAE39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AAB085C1FB2B74000EAE39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB085B1FB2B74000EAE39B /* KomoditasMakanan.app */,
+				8AAB086F1FB2B74000EAE39B /* KomoditasMakananTests.xctest */,
+				8AAB087A1FB2B74000EAE39B /* KomoditasMakananUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AAB085D1FB2B74000EAE39B /* KomoditasMakanan */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB085E1FB2B74000EAE39B /* AppDelegate.swift */,
+				8AAB08601FB2B74000EAE39B /* ViewController.swift */,
+				8AAB08621FB2B74000EAE39B /* Main.storyboard */,
+				8AAB08651FB2B74000EAE39B /* Assets.xcassets */,
+				8AAB08671FB2B74000EAE39B /* LaunchScreen.storyboard */,
+				8AAB086A1FB2B74000EAE39B /* Info.plist */,
+				8AAB088C1FB2B78A00EAE39B /* Loan.swift */,
+				8AAB088E1FB2B79800EAE39B /* detailViewController.swift */,
+				8AAB08901FB2B7A400EAE39B /* TableViewController.swift */,
+				8AAB08921FB2B7B000EAE39B /* TableViewCell.swift */,
+			);
+			path = KomoditasMakanan;
+			sourceTree = "<group>";
+		};
+		8AAB08721FB2B74000EAE39B /* KomoditasMakananTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB08731FB2B74000EAE39B /* KomoditasMakananTests.swift */,
+				8AAB08751FB2B74000EAE39B /* Info.plist */,
+			);
+			path = KomoditasMakananTests;
+			sourceTree = "<group>";
+		};
+		8AAB087D1FB2B74000EAE39B /* KomoditasMakananUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB087E1FB2B74000EAE39B /* KomoditasMakananUITests.swift */,
+				8AAB08801FB2B74000EAE39B /* Info.plist */,
+			);
+			path = KomoditasMakananUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AAB085A1FB2B74000EAE39B /* KomoditasMakanan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAB08831FB2B74000EAE39B /* Build configuration list for PBXNativeTarget "KomoditasMakanan" */;
+			buildPhases = (
+				8AAB08571FB2B74000EAE39B /* Sources */,
+				8AAB08581FB2B74000EAE39B /* Frameworks */,
+				8AAB08591FB2B74000EAE39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KomoditasMakanan;
+			productName = KomoditasMakanan;
+			productReference = 8AAB085B1FB2B74000EAE39B /* KomoditasMakanan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AAB086E1FB2B74000EAE39B /* KomoditasMakananTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAB08861FB2B74000EAE39B /* Build configuration list for PBXNativeTarget "KomoditasMakananTests" */;
+			buildPhases = (
+				8AAB086B1FB2B74000EAE39B /* Sources */,
+				8AAB086C1FB2B74000EAE39B /* Frameworks */,
+				8AAB086D1FB2B74000EAE39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAB08711FB2B74000EAE39B /* PBXTargetDependency */,
+			);
+			name = KomoditasMakananTests;
+			productName = KomoditasMakananTests;
+			productReference = 8AAB086F1FB2B74000EAE39B /* KomoditasMakananTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AAB08791FB2B74000EAE39B /* KomoditasMakananUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAB08891FB2B74000EAE39B /* Build configuration list for PBXNativeTarget "KomoditasMakananUITests" */;
+			buildPhases = (
+				8AAB08761FB2B74000EAE39B /* Sources */,
+				8AAB08771FB2B74000EAE39B /* Frameworks */,
+				8AAB08781FB2B74000EAE39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAB087C1FB2B74000EAE39B /* PBXTargetDependency */,
+			);
+			name = KomoditasMakananUITests;
+			productName = KomoditasMakananUITests;
+			productReference = 8AAB087A1FB2B74000EAE39B /* KomoditasMakananUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AAB08531FB2B74000EAE39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Haidar Rais";
+				TargetAttributes = {
+					8AAB085A1FB2B74000EAE39B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8AAB086E1FB2B74000EAE39B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAB085A1FB2B74000EAE39B;
+					};
+					8AAB08791FB2B74000EAE39B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAB085A1FB2B74000EAE39B;
+					};
+				};
+			};
+			buildConfigurationList = 8AAB08561FB2B74000EAE39B /* Build configuration list for PBXProject "KomoditasMakanan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AAB08521FB2B74000EAE39B;
+			productRefGroup = 8AAB085C1FB2B74000EAE39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AAB085A1FB2B74000EAE39B /* KomoditasMakanan */,
+				8AAB086E1FB2B74000EAE39B /* KomoditasMakananTests */,
+				8AAB08791FB2B74000EAE39B /* KomoditasMakananUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AAB08591FB2B74000EAE39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAB08691FB2B74000EAE39B /* LaunchScreen.storyboard in Resources */,
+				8AAB08661FB2B74000EAE39B /* Assets.xcassets in Resources */,
+				8AAB08641FB2B74000EAE39B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB086D1FB2B74000EAE39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB08781FB2B74000EAE39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AAB08571FB2B74000EAE39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAB08611FB2B74000EAE39B /* ViewController.swift in Sources */,
+				8AAB088D1FB2B78A00EAE39B /* Loan.swift in Sources */,
+				8AAB085F1FB2B74000EAE39B /* AppDelegate.swift in Sources */,
+				8AAB08931FB2B7B000EAE39B /* TableViewCell.swift in Sources */,
+				8AAB08911FB2B7A400EAE39B /* TableViewController.swift in Sources */,
+				8AAB088F1FB2B79800EAE39B /* detailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB086B1FB2B74000EAE39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAB08741FB2B74000EAE39B /* KomoditasMakananTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAB08761FB2B74000EAE39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAB087F1FB2B74000EAE39B /* KomoditasMakananUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AAB08711FB2B74000EAE39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAB085A1FB2B74000EAE39B /* KomoditasMakanan */;
+			targetProxy = 8AAB08701FB2B74000EAE39B /* PBXContainerItemProxy */;
+		};
+		8AAB087C1FB2B74000EAE39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAB085A1FB2B74000EAE39B /* KomoditasMakanan */;
+			targetProxy = 8AAB087B1FB2B74000EAE39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AAB08621FB2B74000EAE39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAB08631FB2B74000EAE39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AAB08671FB2B74000EAE39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAB08681FB2B74000EAE39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AAB08811FB2B74000EAE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AAB08821FB2B74000EAE39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AAB08841FB2B74000EAE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KomoditasMakanan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.KomoditasMakanan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AAB08851FB2B74000EAE39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KomoditasMakanan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.KomoditasMakanan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AAB08871FB2B74000EAE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KomoditasMakananTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.KomoditasMakananTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KomoditasMakanan.app/KomoditasMakanan";
+			};
+			name = Debug;
+		};
+		8AAB08881FB2B74000EAE39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KomoditasMakananTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.KomoditasMakananTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KomoditasMakanan.app/KomoditasMakanan";
+			};
+			name = Release;
+		};
+		8AAB088A1FB2B74000EAE39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KomoditasMakananUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.KomoditasMakananUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KomoditasMakanan;
+			};
+			name = Debug;
+		};
+		8AAB088B1FB2B74000EAE39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KomoditasMakananUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unique-Dev.KomoditasMakananUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KomoditasMakanan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AAB08561FB2B74000EAE39B /* Build configuration list for PBXProject "KomoditasMakanan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAB08811FB2B74000EAE39B /* Debug */,
+				8AAB08821FB2B74000EAE39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAB08831FB2B74000EAE39B /* Build configuration list for PBXNativeTarget "KomoditasMakanan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAB08841FB2B74000EAE39B /* Debug */,
+				8AAB08851FB2B74000EAE39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAB08861FB2B74000EAE39B /* Build configuration list for PBXNativeTarget "KomoditasMakananTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAB08871FB2B74000EAE39B /* Debug */,
+				8AAB08881FB2B74000EAE39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAB08891FB2B74000EAE39B /* Build configuration list for PBXNativeTarget "KomoditasMakananUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAB088A1FB2B74000EAE39B /* Debug */,
+				8AAB088B1FB2B74000EAE39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AAB08531FB2B74000EAE39B /* Project object */;
+}
